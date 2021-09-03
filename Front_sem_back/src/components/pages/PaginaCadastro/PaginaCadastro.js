@@ -23,15 +23,15 @@ export function Cadastro() {
                 <form className="form" onSubmit={foiClicado}>
                    
                     <label className="label-txt branco" for="usuario">Usuário:</label>
-                    <input  className="input-cad back-branco" type="text" name="campo-usuario" 
+                    <input  className="input-cad-user back-branco" type="text" name="campo-usuario" 
                     ></input>
                     
                     <label className="label-txt branco" for="matricula">Matricula:</label>
-                    <input  className="input-cad back-branco" type="text" name="campo-matricula" 
+                    <input  className="input-cad-matricula back-branco" type="text" name="campo-matricula" 
                     ></input>
                     
                     <label className="label-txt branco" for="passoword">Senha:</label>
-                    <input className="input-cad back-branco" type="password" name="password"
+                    <input className="input-cad-password back-branco" type="password" name="password"
                     ></input>
 
                     <button type="submit" className="botao-confirmar botao-cad back-laranja preto">

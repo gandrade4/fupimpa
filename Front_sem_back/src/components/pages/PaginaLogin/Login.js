@@ -12,9 +12,9 @@ export function Login() {
                 <form className="form">
                     
                     <label className="label-txt branco" for="usuario">Usuário:</label>
-                    <input  className="input back-branco" type="text" name="campo-usuario" ></input>
+                    <input  className="input-user back-branco" type="text" name="campo-usuario" ></input>
                     <label className="label-txt branco" for="password">Senha:</label>
-                    <input className="input back-branco" type="password" name="password"></input>
+                    <input className="input-password back-branco" type="password" name="password"></input>
                     <div className="sub-opcoes"> 
                         <input className="check " type="checkbox" ></input>
                         <p className="lembrar branco" >Lembrar de mim </p>

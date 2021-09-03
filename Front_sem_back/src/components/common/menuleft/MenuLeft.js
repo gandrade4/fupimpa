@@ -9,14 +9,14 @@ export function MenuLeft() {
         <div className="menu-left">
             <NavLink
                 exact
-                className=" menu-left-button back-laranja"
+                className=" menu-left-button-algoritmos back-laranja"
                 // to="/"
                 to="/modulo">
                 Algorítmo
             </NavLink>
             <NavLink
                 exact
-                className="menu-left-button back-vermelho"
+                className="menu-left-button-expressoes back-vermelho"
                 to="/modulo/2">
                 Expressões
             </NavLink>

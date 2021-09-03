@@ -22,7 +22,7 @@
     font-family: "Chewy";
     font-size: 28px;
 }
-.input, .botao-confirmar{
+.input-user, .input-password, .botao-confirmar{
     width: 97% ;/*350px*/
     height: 50px;
     border-radius: 20px;

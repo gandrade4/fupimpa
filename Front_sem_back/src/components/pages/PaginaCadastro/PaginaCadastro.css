@@ -10,7 +10,7 @@
     align-items: center; 
     flex-direction: column;
 }
-.input-cad {
+.input-cad-user, .input-cad-matricula, .input-cad-password {
     width: 97%;
     height: 45px;
     border-radius: 20px;
