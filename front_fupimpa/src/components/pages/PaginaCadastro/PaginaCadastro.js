@@ -32,17 +32,17 @@ export function Cadastro() {
                 <form className="form" onSubmit={handleSubmit(submeter)}>
                    
                     <label className="label-txt branco" for="usuario">Usuário:</label>
-                    <input  className="input-cad back-branco" type="text" name="campo-usuario" 
+                    <input  className="input-cad-user back-branco" type="text" name="campo-usuario" 
                         {...register("nome")}
                     ></input>
                     
                     <label className="label-txt branco" for="email">Email:</label>
-                    <input  className="input-cad back-branco" type="text" name="campo-email" 
+                    <input  className="input-cad-email back-branco" type="text" name="campo-email" 
                         {...register("email")}
                     ></input>
                     
                     <label className="label-txt branco" for="passoword">Senha:</label>
-                    <input className="input-cad back-branco" type="password" name="password"
+                    <input className="input-cad-password back-branco" type="password" name="password"
                         {...register("senha")}
                     ></input>
 

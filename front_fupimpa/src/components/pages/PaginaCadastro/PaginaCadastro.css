@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-.input-cad {
+.input-cad-password {
     width: 97%;
     height: 45px;
     border-radius: 20px;
@@ -31,6 +31,29 @@
     margin: 5px 0px;
     padding-left: 8px;    
 }
+.input-cad-user {
+    width: 97%;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    /* margin-bottom: 10px; */
+    margin: 5px 0px;
+    padding-left: 8px;    
+}
+.input-cad-email {
+    width: 97%;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    /* margin-bottom: 10px; */
+    margin: 5px 0px;
+    padding-left: 8px;    
+}
+
 .input-cad:focus{
     border: 1px solid #be6805  ;
     /* #ec5261cc */

@@ -21,7 +21,7 @@ export function Login() {
             auth.setAuth({
                 token: response.data.token, nome: response.data.nome
             });
-            history.push("/modulo");
+            history.push("/modulos");
         }).catch((error) => {
             console.log(error);
         }); 
@@ -36,12 +36,12 @@ export function Login() {
                 <form className="form" onSubmit={handleSubmit(submeter)}>
                     
                     <label className="label-txt branco" for="usuario">Usuário:</label>
-                    <input  className="input back-branco" type="text" name="campo-usuario" 
+                    <input  className="input-user back-branco" type="text" name="campo-usuario" 
                         {...register("nome")}
                     ></input>
 
                     <label className="label-txt branco" for="password">Senha:</label>
-                    <input className="input back-branco" type="password" name="password"
+                    <input className="input-password back-branco" type="password" name="password"
                         {...register("senha")}
                     ></input>
 
